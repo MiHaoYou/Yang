@@ -9,7 +9,7 @@ public class CardTool {
     public static String[] cardNames = {"枇杷","柠檬","梨","椰子",
             "榴莲","橙子","洋葱","火龙果",
             "牛油果","苹果","草莓","荔枝",
-            "蓝莓","西红柿","香蕉",};
+            "蓝莓","西红柿","香蕉","水果","桃子","柿子","草莓"};
 
     public static Random random = new Random();
     public static String generateRandowCardName(){

@@ -1,5 +1,7 @@
 package cn.xy;
 
+import cn.xy.tool.MusicPlayer;
+
 import javax.swing.*;
 import java.util.*;
 import java.util.Map;
@@ -60,8 +62,20 @@ public class Trough {
 
     public void checkGameOver(){
         if (cards.size()>=7){
-            JOptionPane.showMessageDialog(null,"游戏结束");
-            System.exit(0);
+            while (true) {
+                try {
+
+
+                    JOptionPane.showMessageDialog(null,"Game Over");
+                    new MusicPlayer().overPlay();
+                    JOptionPane.showMessageDialog(null,"退出");
+                    System.exit(0);
+                } catch (Exception e) {
+
+                    e.printStackTrace();
+                }
+            }
+
         }else if(cards.size() == 0){
             YangMain.checkWin();
         }
