@@ -64,10 +64,6 @@ public class Trough {
         if (cards.size()>=7){
             while (true) {
                 try {
-
-
-                    JOptionPane.showMessageDialog(null,"Game Over");
-                    new MusicPlayer().overPlay();
                     JOptionPane.showMessageDialog(null,"退出");
                     System.exit(0);
                 } catch (Exception e) {

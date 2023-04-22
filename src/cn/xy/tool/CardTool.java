@@ -6,10 +6,10 @@ import java.util.Random;
 
 public class CardTool {
 
-    public static String[] cardNames = {"枇杷","柠檬","梨","椰子",
-            "榴莲","橙子","洋葱","火龙果",
-            "牛油果","苹果","草莓","荔枝",
-            "蓝莓","西红柿","香蕉","水果","桃子","柿子","草莓"};
+    public static String[] cardNames = {"南瓜","坚果","无花果","梨子",
+            "橘子","火龙果","猕猴桃","盘子",
+            "苹果","菠萝","萝卜","葡萄",
+            "西瓜","食物","蔬菜","香蕉"};
 
     public static Random random = new Random();
     public static String generateRandowCardName(){
